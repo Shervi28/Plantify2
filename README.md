@@ -1,2 +1,29 @@
 # Plantify2
-yeet
+## Inspiration
+What inspired us to create Plantify is the ongoing struggle against climate change. Climate change is caused by the accumulation of CO2 in the atmosphere.  According to the National Wildlife Federation, climate change has caused "temperatures [to be] **1.8°F or 1°C hotter** than they were before the industrial revolution", **created heat waves which kill 658 people per year**, and "**doubled the area burned by wildfires"**. Looking into the future, based on NOAA research, **by 2100 (which is in 80 years), the average human would be drowned in water** due to sea levels rising to 6.6 feet. In an effort to combat these devastating effects, our team discussed ways everyday people could play their part. One of us brought up the idea of plants and trees, as they convert carbon dioxide to oxygen via photosynthesis. One tree may not seem like a lot, but CO2Meter states that 48 pounds of CO2 are absorbed each year, and 1 ton every 40 years!  We need to get started somewhere, and what better way then to have a climate change app (and "game"!) to motivate everyone to nurture trees and plants and reduce CO2. This is where Plantify was born. 
+
+## What makes Plantify unique and successful
+In the current app stores and app market, there is no app like Plantify that gathers communities and people to fight climate change in this way. This means that Plantify is the number 1 app of this new kinds of apps that fight Climate Change. Not only that Plantify can attract gardeners and gardening hobbyists to plant and sustain plants, while fighting climate change! Plantify, if used just by 20 people, can remove the carbon footprint of their entire house for each person! This means that even if a few people join the impacts are gonna be great after just 6 months time! As you may know, kids and teens are a great target  audience and especially with Plantify being built as a real life game, can possibly attract lots of kids and teens. Our Targets are everyone because we here at Plantify believe that anyone can contribute to the annihilation of climate change and make the world a better and safer place!  
+
+## What it does
+Plantify is a website that encourages sustaining and growing plants to reduce the CO2 in the environment. Users can create an account to post their plants and track the amount of CO2 they're reducing. Users can also track their CO2 reduction, by a weekly basis, by graphing it on a line graph. The CO2 tracker can also average the amount CO2 users are reducing everyday. As users progress through Plantify, they can earn badges for many different actions. For example, users can an earn a badge for making an account, tracking their CO2 for the first time, and many more. Furthermore, Plantify has a feature to verify if you took care of your plant via an AI that scans the plant to check if it's healthy or sick. To add competitiveness, Plantify has a leaderboard that ranks users by the amount of plants they have planted and how much CO2 they have reduced in their environment on a weekly basis. 
+
+## How we built it
+We built the app using Figma, React, Flask, Python, Web Scraping, and Teachable Machine. The frontend was build using react, html and css. We used anima to put our prototype for everyone to use. The Backend was built using Flask and SQLAlchemy. It was our first time using flask but we were able to get the basics rolling like databases and user sign in. We used teachable machine and to build the [Neural Network](https://github.com/Shervi28/Plantify/blob/main/nn.jpg) . We then used Tensorflow.js to export the model with html. 
+## Challenges we ran into
+One of the major challenges was the time zone difference of our team members. It became complicated to allocate who does what due to our differing time zones, but we managed to communicate well with each other. It was also our first time using Flask as backend as well as using databases.
+## Accomplishments that we're proud of
+We're proud of the aesthetic and seamless UI design that Plantify has. Plantify has a correlating and beautiful color scheme that is simple to read and look at. We're also proud of the plant health classifier AI, it was very accurate and intuitive, giving the app a monitoring (to know if plant is kept healthy) and verification feature (to keep users honest and accountable :) ). We're also really proud of the backend, and how it came out despite of the new coding framework we used.
+## What we learned
+We learned how to allocate time and work between each other. We learned how to do backend with Flask, which was new for everyone. Our team also learned how Teachable Machine works, taking advantage of a pre-built platform which simplified our ML Training and Model Creation process. We also learned new ways to prototype our apps and bring our ideas a reality. We also sharpened our team-working skills, problem-solving and communication skills.
+## What's next for Plantify
+First we are planning and currently building better backends so that our frontend and backend work hand in hand and work without errors. Next, we aim to make more advanced AI models to further to track the amount CO2 is in the air. We plan to do this by making a device with the Adafruit SCD-30 CO2 environmental sensor to make tracking CO2 much easier and more precise. We are also looking for further ways to enhance and improve the backend and core functionalities. Next, we'll advance our plant scanner to be more accurate when scanning plants. And Finally, we can incorporate an organization page, where users can start Plantify clubs in their own communities. Furthermore, this gives the ability for users to host and have Plantify competitions across the nation.
+
+## Research Sources
+[CO2Meter](https://www.co2meter.com/blogs/news/could-global-co2-levels-be-reduced-by-planting-trees) 
+
+[NWF](https://www.nwf.org/-/media/Documents/PDFs/Environmental-Threats/Climate-Change-Natural-Disasters-fact-sheet.ashx)
+
+# Try it Out
+Prototype: https://spring-flower-8163.animaapp.io/desktop-1
+Design of the App: https://www.figma.com/file/uTS3YpfpVXXrwFNrCrxeZb/Plantify
